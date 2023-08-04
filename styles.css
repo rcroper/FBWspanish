@@ -675,7 +675,42 @@ footer p{
 
 
 /* media quieres ----------*/
+@media (max-width: 900px) {
+    .footer-container{
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .footer-container h6{
+        font-weight: bold;
+        line-height: 1.4;
+    }
+
+    .social{
+        gap: 30px;
+    }
+
+    .icon{
+        width: 40px;
+        height: 40px;
+    }
+
+    .location{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .resources{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
 
 @media (max-width: 768px) {
     .info-container{
